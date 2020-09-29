@@ -11,7 +11,7 @@ puts "Voici la pyramide! "
 
 user_number.times do |i|
   i += 1
-puts ("# " * i).rjust (user_number * 2)
+puts ("#"*i).rjust (user_number)
 end
 
 
