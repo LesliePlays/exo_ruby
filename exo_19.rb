@@ -6,4 +6,5 @@ emails = []
     emails.push("jean.dupont.#{i +1}@gmail.fr")
   end 
 end
-puts emails
+
+puts emails.values_at(* emails.each_index.select {|i| i.odd?})
